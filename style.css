@@ -1,17 +1,36 @@
 body {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: pink;
 }
+header, nav, main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 @media screen and (min-width: 600px) {
     body {
         grid-template-columns: 1fr 1fr;
         background-color: wheat;
     }
+    header, nav, main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 @media screen and (min-width: 800px) {
     body {
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         background-color: magenta;
+        gap: 10px;
+    }
+    header, nav, main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
