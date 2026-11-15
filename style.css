@@ -1,0 +1,17 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: pink;
+}
+@media screen and (min-width: 600px) {
+    body {
+        grid-template-columns: 1fr 1fr;
+        background-color: wheat;
+    }
+}
+@media screen and (min-width: 800px) {
+    body {
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: magenta;
+    }
+}
