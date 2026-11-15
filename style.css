@@ -2,9 +2,9 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     background-color: pink;
+    gap: 10px;
 }
 header, nav, main {
-        display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
