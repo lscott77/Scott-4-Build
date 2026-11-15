@@ -27,7 +27,7 @@ header, nav, main {
         background-color: magenta;
         gap: 10px;
     }
-    header, nav, main {
+    header, nav, main, footer {
         display: flex;
         justify-content: center;
         align-items: center;
